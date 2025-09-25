@@ -1,0 +1,26 @@
+# Core Django Dependencies - مبسط
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+python-decouple==3.8
+
+# Authentication
+djangorestframework-simplejwt==5.3.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# Redis - للتخزين المؤقت
+redis==5.0.1
+django-redis==5.4.0
+
+# Production Server
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# API Documentation
+drf-spectacular==0.26.5
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
